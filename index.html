@@ -3,6 +3,11 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-<script type="text/javascript">window.open('http://127.0.0.1:55555/cfwcd/test.html');</script>
+<input type="button" value="OK" id="test"/>
+<script type="text/javascript">
+document.getElementById('test').addEventListener('click', function() {
+    window.open('http://127.0.0.1:55555/cfwcd/test.html');
+}, false);
+</script>
 </body>
 </html>
